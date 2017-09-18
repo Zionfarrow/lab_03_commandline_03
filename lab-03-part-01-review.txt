@@ -80,7 +80,7 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
 
-curl http://foureyes.github.io/mtec1002-spring2014/labs/03/mtec1002-lab-03.tar.gz
+curl -o mtec1002-lab-03.tar.gz http://foureyes.github.io/mtec1002-spring2014/labs/03/mtec1002-lab-03.tar.gz 
 
 
 ==========
@@ -103,6 +103,14 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
+ unzip mtec1002-lab-03.tar.gz
+Archive:  mtec1002-lab-03.tar.gz
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of mtec1002-lab-03.tar.gz or
+        mtec1002-lab-03.tar.gz.zip, and cannot find mtec1002-lab-03.tar.gz.ZIP, period.
 
 
 
