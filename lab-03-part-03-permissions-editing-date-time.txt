@@ -18,13 +18,23 @@ We're going to be writing a shell script.  First, though... let's figure out wha
 What command did you use, and what was its output?
 ----------
 
-
+ date
+Mon Sep 18 15:15:15 EDT 2017
 
 ==========
 2. Print out a calendar for this month.
 
 What command did you use, and what was its output?
 ----------
+Cal September 2017
+    September 2017
+Mo     4 11 18 25
+Tu     5 12 19 26
+We     6 13 20 27
+Th     7 14 21 28
+Fr  1  8 15 22 29
+Sa  2  9 16 23 30
+Su  3 10 17 24
 
 
 
@@ -34,7 +44,7 @@ What command did you use, and what was its output?
 What commands did you use to do this?
 ----------
 
-
+cd ~
 
 ==========
 4. Create an empty file called copy_to_backup.sh.  Verify that the file exists.
@@ -42,14 +52,17 @@ What commands did you use to do this?
 What commands did you use to do this?
 ----------
 
+touch copy_to_backup.sh
 
+ls
 
 ==========
 5. What are the permissions on your copy_to_backup.sh.
 
 What command did you use to find the permissions?
 ----------
-
+ls -l copy_to_backup.sh
+-rw-r--r--  1 student  staff  0 Sep 18 15:18 copy_to_backup.sh
 
 
 ==========
